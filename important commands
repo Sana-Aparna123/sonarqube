@@ -1,0 +1,747 @@
+sudo systemctl --state=running --type=service
+ 1751  sudo ufw status
+ 1752  netstat -tulpn | grep sonar
+ 1753  sudo netstat -tulpn | grep sonar
+ 1754  sudo netstat -tulpn | grep sonarqube
+ 1755  ps aux | grep sonar
+ 1756  cd /etc/
+ 1757  ls
+ 1758  cd so
+ 1759  cd /opt/sonarqube/
+ 1760  ls
+ 1761  cd conf/
+ 1762  ls
+ 1763  cat sonar.properties
+ 1764  cat sonar.properties | grep "port
+ 1765  cat sonar.properties | grep "port"
+ 1766  sudo netstat -tulpn | grep :9095
+ 1767  las
+ 1768  ls
+ 1769  cat sonar.properties
+ 1770  sudo netstat -tulpn | grep :9095
+ 1771  cat sonar.properties | grep "port"
+ 1772  lssudo unzip sonarqube-10.6.0.92116\ \(1\).zip 
+ 1966  clear
+ 1967  ks
+ 1968  ls
+ 1969  cd sonarqube-10.6.0.92116/
+ 1970  ls
+ 1971  cd conf/
+ 1972  ls
+ 1973  cd s
+ 1974  cat sonar.properties 
+ 1975  clea
+ 1976  clear
+ 1977  sudo nano sonar.properties 
+ 1978  cd ..
+ 1979  cd bin/linux-x86-64/
+ 1980  ls
+ 1981  sudo ./sonar.sh start
+ 1982  sudo ./sonar.sh status
+ 1983  cd ../..
+ 1984  cd logs/
+ 1985  ls
+ 1986  cat sonar.log 
+ 1987  clear
+ 1988  cd 
+ 1989  cd /var/lib/psql
+ 1990  cd /var/lib/
+ 1991  ls
+ 1992  cd po
+ 1993  cd postgresql/
+ 1994  ;s
+ 1995  ls
+ 1996  cd 16
+ 1997  ls
+ 1998  cd main/
+ 1999  sudo cd main/
+ 2000  cd //
+ 2001  cd ..
+ 2002  ls
+ 2003  cd
+ 2004  cd /var/lib/postgresql/
+ 2005  ls
+ 2006  cd 14
+ 2007  ls
+ 2008  cd ..
+ 2009  cd lib/
+ 2010  sudo rm -rf postgresql/
+ 2011  ls
+ 2012  cd 
+ 2013  clear
+ 2014  apt install postgresql
+ 2015  sudo apt install postgresql
+ 2016  sudo systemctl start postgresql
+ 2017  sudo systemctl enable postgresql
+ 2018  sudo systemctl status postgresql
+ 2019  sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+ 2020  sudo wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+ 2021  sudo apt install postgresql
+ 2022  sudo systemctl stop postgresql
+ 2023  sudo systemctl start postgresql
+ 2024  sudo systemctl enable postgresql
+ 2025  sudo systemctl status postgresql
+ 2026  sudo systemctl enable postgresql.service
+ 2027  sudo systemctl status postgresql.service
+ 2028  sudo systemctl restart postgresql
+ 2029  cd /var/log/
+ 2030  ls
+ 2031  cd postgresql/
+ 2032  ls
+ 2033  cat postgresql-16-main.log 
+ 2034  cd
+ 2035  dpkg -l | grep postgres
+ 2036  sudo apt-get --purge remove postgresql
+ 2037  dpkg -l | grep postgres
+ 2038* dpkg -l | grep postgresql-14 postgresql-16 postgresql-client-16  postgresql-client-common postgresql-common postgresql-contrib postgresql-
+ 2039  sudo apt-get --purge remove postgresql-14
+ 2040  dpkg -l | grep postgres
+ 2041  sudo apt-get --purge remove postgresql-16 postgresql-client-14  postgresql-client-16  postgresql-client-common  postgresql-common postgresql-contrib 
+ 2042  dpkg -l | grep postgres
+ 2043  clear
+ 2044  sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+ 2045  sudo wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+ 2046  sudo apt install postgresql
+ 2047  dpkg -l | grep postgres
+ 2048  clear
+ 2049  cd /var/lib/
+ 2050  ls
+ 2051  cd postgresql/
+ 2052  ;s
+ 2053  l
+ 2054  cd 16/
+ 2055  ls
+ 2056  cd
+ 2057  sudo systemctl start postgresql
+ 2058  sudo systemctl enable postgresql
+ 2059  sudo systemctl status postgresql
+ 2060  cd /lib
+ 2061  cd systemd/
+ 2062  l
+ 2063  ls
+ 2064  cd system
+ 2065  ;s
+ 2066  ls
+ 2067  cat postgresql.service 
+ 2068  start postgresql.service 
+ 2069  service start postgresql.service 
+ 2070  systemctl start postgresql.service 
+ 2071  sudo systemctl start postgresql.service 
+ 2072  sudo systemctl enable postgresql.service 
+ 2073  sudo systemctl status postgresql.service 
+ 2074  journalctl postgresql.service
+ 2075  journalctl -u  postgresql.service
+ 2076  journalctl -u  postgresql.service | tail -n 10 
+ 2077  cd /usr
+ 2078  cd lib
+ 2079  ls
+ 2080  cd systemd/
+ 2081  cd system
+ 2082  ls
+ 2083  ls | grep pos
+ 2084  /etc/init.d/postgresql start 
+ 2085  sudo systemctl status postgresql.service 
+ 2086  journalctl -u  postgresql.service | tail -n 10 
+ 2087  sudo systemctl status postgresql.service 
+ 2088  cd
+ 2089  psql
+ 2090  netstat -tnlp | grep 5432
+ 2091  psql -H localhost -p 5432
+ 2092  sudo psql -H localhost -p 5432
+ 2093  sudo -u postgres psql
+ 2094  \q
+ 2095  sudo -u postgres psql
+ 2096  clear
+ 2097  cd /opt/
+ 2098  ls
+ 2099  cd sonarqube-10.6.0.92116/
+ 2100  ls
+ 2101  cd bin/
+ 2102  cd linux-x86-64/
+ 2103  sudo nano sonar.sh 
+ 2104  cd ..
+ 2105  cd conf/
+ 2106  sudo nano sonar.properties 
+ 2107  cd ..
+ 2108  cd bin/linux-x86-64/
+ 2109  sudo ./sonar.sh start
+ 2110  sudo ./sonar.sh status
+ 2111  cd ../..
+ 2112  cd logs/
+ 2113  ls
+ 2114  cat sonar.log 
+ 2115  cd ..
+ 2116  cd conf/
+ 2117  cat sonar.properties | grep Elasticsearch
+ 2118  cd
+ 2119  cd /var/lib/
+ 2120  ls
+ 2121  cd
+ 2122  cd /etc/
+ 2123  ls
+ 2124  cd postgresql
+ 2125  ls
+ 2126  cd 16/
+ 2127  ls
+ 2128  cd main/
+ 2129  ls
+ 2130  cat pg_hba.conf 
+ 2131  sudo cat pg_hba.conf 
+ 2132  sudo nano pg_hba.conf 
+ 2133  cd
+ 2134  sudo systemctl restart postgresql
+ 2135  cd /opt/sonarqube-10.6.0.92116/
+ 2136  ls
+ 2137  cd bin/
+ 2138* cd linux-x86-64
+ 2139  sudo ./sonar.sh start
+ 2140  sudo ./sonar.sh status
+ 2141  cd /etc/
+ 2142  ls
+ 2143  cd init.d/
+ 2144  ls
+ 2145  cd ..
+ 2146  cd 
+ 2147  cd
+ 2148  clear
+ 2149  cd /opt/sonarqube-10.6.0.92116/
+ 2150  ls
+ 2151  cd conf/
+ 2152  sudo nano sonar.properties 
+ 2153  cd ..
+ 2154  cd bin/linux-x86-64/
+ 2155  ls
+ 2156  cat | grep RUNASUSER
+ 2157  cat sonar.sh | grep RUNASUSER
+ 2158  sudo ./sonar.sh force-stop
+ 2159  sudo ./sonar.sh start
+ 2160  sudo ./sonar.sh status
+ 2161  cd ..
+ 2162  cd logs/
+ 2163  ls
+ 2164  cat sonar.log 
+ 2165  ls
+ 2166  cd ..
+ 2167  slc
+ 2168  ls
+ 2169  cd conf/
+ 2170  ls
+ 2171  sudo vi sonar.properties 
+ 2172  sudo ./sonar.sh status
+ 2173  cd ..
+ 2174  las
+ 2175  ls
+ 2176  cd bin/
+ 2177  ls
+ 2178  cd linux-x86-64/
+ 2179  ls
+ 2180  sudo ./sonar.sh status
+ 2181  sudo ./sonar.sh stop
+ 2182  sudo ./sonar.sh status
+ 2183  sudo ./sonar.sh restart
+ 2184  sudo ./sonar.sh status
+ 2185  cd ..
+ 2186  rm -rf sonarqube-10.6.0.92116
+ 2187  sudo rm -rf sonarqube-10.6.0.92116
+ 2188  sudo rm -rf sonarqube-10.6.0.92116\ \(1\).zip 
+ 2189  ls
+ 2190  cd 
+ 2191  sudo find / - name postgres
+ 2192  sudo find / - name postgresql
+ 2193  ls
+ 2194  which postgres
+ 2195  sudo systemctl status postgresql.service 
+ 2196  sudo vi /lib/systemd/system/postgresql.service
+ 2197  history
+ 2198  dpkg -l | grep postgr
+ 2199  sudo apt-get --purge remove postgresql postgresql-16 postgresql-client-16 postgresql-client-common postgresql-common
+ 2200  clear
+ 2201  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+ 2202  wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add -
+ 2203  sudo apt install postgresql postgresql-contrib -y
+ 2204  sudo systemctl enable postgresql
+ 2205  sudo systemctl start postgresql
+ 2206  sudo passwd postgres
+ 2207  su - postgres
+ 2208  cd Downloads/
+ 2209  ls
+ 2210  sudo unzip sonarqube-10.6.0.92116.zip 
+ 2211  sudo mv sonarqube-10.6.0.92116 /opt/sonarqube
+ 2212  cd 
+ 2213  cd /opt/sonarqube/
+ 2214  ls
+ 2215  cd
+ 2216  sudo groupadd sonar
+ 2217  sudo useradd -d /opt/sonarqube -g sonar sonar
+ 2218  sudo chown sonar:sonar /opt/sonarqube -R
+ 2219  sudo nano /opt/sonarqube/conf/sonar.properties
+ 2220  sudo nano /opt/sonarqube/bin/linux-x86-64/sonar.sh
+ 2221  sudo vi /opt/sonarqube/bin/linux-x86-64/sonar.sh
+ 2222  sudo nano /etc/systemd/system/sonar.service
+ 2223  sudo systemctl enable sonar
+ 2224  sudo systemctl start sonar
+ 2225  sudo systemctl status sonar
+ 2226  cat /opt/sonarqube/conf/sonar.properties 
+ 2227  history
+bootlabs@bootlabs-Latitude-3420:~$ 
+
+
+ 1773  cat sonar.properties
+ 1774  ls
+ 1775  cat sonar.propertiesy
+ 1776  cat sonar.propertiesy | grep "port"
+ 1777  sudo vi sonar.propertiesy
+ 1778  sudo systemctl restart sonarqube.service 
+ 1779  sudo systemctl status  sonarqube.service 
+ 1780  curl -vvv localhost:9000
+ 1781  sudo netstat -tulpn | grep :9090
+ 1782  sudo netstat -tulpn | grep :9000\
+ 1783  sudo netstat -tulpn | grep :9000
+ 1784  sudo netstat -tulpn
+ 1785  ls
+ 1786  sudo systemctl status  sonarqube.service 
+ 1787  ps aux | grep sonarqube 
+ 1788  sudo netstat -tulpn | grep -E "9200"
+ 1789  sudo netstat -tulpn | grep -E "9300"
+ 1790  ls
+ 1791  sudo vi sonar.properties
+ 1792  sudo systemctl restart sonarqube.service 
+ 1793  sudo systemctl status  sonarqube.service 
+ 1794  sudo netstat -tulpn
+ 1795  sudo vi sonar.properties
+ 1796  sudo systemctl restart sonarqube.service 
+ 1797  sudo systemctl status  sonarqube.service 
+ 1798  sudo netstat -tulpn
+ 1799  ls
+ 1800  cd ..
+ 1801  ls
+ 1802  cd web/
+ 1803  ls
+ 1804  cd ..
+ 1805  s
+ 1806  ls
+ 1807  cd bin/
+ 1808  ls
+ 1809  cd linux-x86-64 
+ 1810  ls
+ 1811  sudo  dpkg -i | grep sonarqube 
+ 1812  sudo  dpkg -i | grep sonar
+ 1813  sudo  dpkg --list  | grep sonar
+ 1814  sudo apt purge sonarqube 
+ 1815  ls
+ 1816  ./sonar.sh stop
+ 1817  sudi ./sonar.sh stop
+ 1818  sudo ./sonar.sh stop
+ 1819  cd
+ 1820  cd /opt/
+ 1821  ls
+ 1822  rm -rf sonarqube
+ 1823  sudo rm -rf sonarqube
+ 1824  ls
+ 1825  sudo find / -name sonarqube 
+ 1826  sudo netstat -tulpn
+ 1827  cd
+ 1828  cd Downloads/
+ 1829  ls
+ 1830  sudo mv sonarqube-10.6.0.92116.zip /opt
+ 1831  cd /opt/
+ 1832  ls
+ 1833  sudo unzip sonarqube-10.6.0.92116.zip 
+ 1834  ls
+ 1835  cd sonarqube-10.6.0.92116/
+ 1836  ls
+ 1837  sonarqube-10.6.0.92116.zip
+ 1838  sudo groupadd sonar
+ 1839  sudo usermod -g sonar -d /opt/sonarqube sonar
+ 1840  sudo adduser sonar
+ 1841  ls
+ 1842  cd ..
+ 1843  ls
+ 1844  sudo  usermod -g sonar -d /opt/sonarqube-10.6.0.92116
+ 1845  sudo  usermod -g sonar -d /opt/sonarqube-10.6.0.92116 sonar
+ 1846  ls
+ 1847  cd sonarqube-10.6.0.92116/
+ 1848  ks
+ 1849  ls
+ 1850  cd /etc/postgresql
+ 1851  ls
+ 1852  cd 14/
+ 1853  ls
+ 1854  cd main/
+ 1855  ls
+ 1856  cd conf.d/
+ 1857  ls
+ 1858  cd ..
+ 1859  cat postgresql.conf 
+ 1860  cat postgresql.conf  | grep user
+ 1861  ls
+ 1862  cat environment 
+ 1863  cat start.conf 
+ 1864  cat pg_ident.conf 
+ 1865  sudo cat pg_ident.conf 
+ 1866  sudo cat pg_ident.conf  | grep "user"
+ 1867  ls
+ 1868  clear
+ 1869  cd
+ 1870  sudo -u postgres psql
+ 1871  clear
+ 1872  cd /opt/
+ 1873  ls
+ 1874  cd sonarqube-10.6.0.92116/
+ 1875  ls
+ 1876  cd conf/
+ 1877  ls
+ 1878  nano sonar.properties 
+ 1879  cd
+ 1880  sudo -u postgres psql
+ 1881  cd /opt/sonarqube-10.6.0.92116/conf/
+ 1882  nano sonar.properties 
+ 1883  sudo nano sonar.properties 
+ 1884  cd ..
+ 1885  ls
+ 1886  cd bin/
+ 1887  ls
+ 1888  cd linux-x86-64/
+ 1889  l
+ 1890  ls
+ 1891  ./sonar.sh 
+ 1892  ./sonar.sh start
+ 1893  sudo ./sonar.sh start
+ 1894  sudo ./sonar.sh status
+ 1895* l
+ 1896  sudo ./sonar.sh stop
+ 1897  sudo ./sonar.sh force-stop
+ 1898  sudo ./sonar.sh restart
+ 1899  sudo ./sonar.sh status
+ 1900  clear
+ 1901  sudo groupadd sonar
+ 1902  cd
+ 1903  sudo useradd -c "sonaruser" -d /opt/sonarqube-10.6.0.92116/ -g sonar -s /bin/bash sonar
+ 1904  sudo passwd soanr
+ 1905  sudo passwd sonar
+ 1906  sudo chown -R sonar:sonar /opt/sonarqube-10.6.0.92116
+ 1907  sudo cat /etc/passwd | grep sonar
+ 1908  nano /opt/sonarqube-10.6.0.92116/conf/sonar.properties 
+ 1909  sudo nano /opt/sonarqube-10.6.0.92116/conf/sonar.properties 
+ 1910  cd /opt/sonarqube-10.6.0.92116/bin/
+ 1911  cd linux-x86-64/
+ 1912  ls
+ 1913  sudo ./sonar.sh start
+ 1914  sudo ./sonar.sh status
+ 1915  cd ..
+ 1916  l
+ 1917  ls
+ 1918  cd logs/
+ 1919  ls
+ 1920  cat sonar.log 
+ 1921  clear
+ 1922  cd ..
+ 1923  cd bin/linux-x86-64/
+ 1924  sudo ./sonar.sh status
+ 1925  sudo ./sonar.sh stop
+ 1926  sudo ./sonar.sh start
+ 1927  sudo ./sonar.sh status
+ 1928  clear
+ 1929  java --version
+ 1930  sudo systemctl status postgresql
+ 1931  postrgresql --versoin
+ 1932  clear
+ 1933  cd
+ 1934  su -postgres
+ 1935  su - postgres
+ 1936  sudo passwd postgres
+ 1937  su - postgres
+ 1938  cd /opt/sonarqube-10.6.0.92116/bin/linux-x86-64/
+ 1939  nano sonar.sh 
+ 1940  cat sonar.sh | grep RUN_AS_USER
+ 1941  sudo ./sonar.sh status
+ 1942  sudo ./sonar.sh stopsudo ./sonar.sh stop
+ 1943  sudo ./sonar.sh stop
+ 1944  clear
+ 1945  cd
+ 1946  cd /opt/
+ 1947  ls
+ 1948  sudo rm-rd sonarqube-10.6.0.92116
+ 1949  sudo rm-rf sonarqube-10.6.0.92116
+ 1950  sudo rm -rf sonarqube-10.6.0.92116
+ 1951  sudo rm -rf sonarqube-10.6.0.92116.zip 
+ 1952  cd 
+ 1953  ls
+ 1954  cd /usr/
+ 1955  ls
+ 1956  cd bin/
+ 1957  ls
+ 1958  cd
+ 1959  clear
+ 1960  cd
+ 1961  cd Downloads/
+ 1962  sudo mv sonarqube-10.6.0.92116\ \(1\).zip /opt/
+ 1963  cd /opt/
+ 1964  ls
+ 
+ 1965  sudo unzip sonarqube-10.6.0.92116\ \(1\).zip 
+ 1966  clear
+ 1967  ks
+ 1968  ls
+ 1969  cd sonarqube-10.6.0.92116/
+ 1970  ls
+ 1971  cd conf/
+ 1972  ls
+ 1973  cd s
+ 1974  cat sonar.properties 
+ 1975  clea
+ 1976  clear
+ 1977  sudo nano sonar.properties 
+ 1978  cd ..
+ 1979  cd bin/linux-x86-64/
+ 1980  ls
+ 1981  sudo ./sonar.sh start
+ 1982  sudo ./sonar.sh status
+ 1983  cd ../..
+ 1984  cd logs/
+ 1985  ls
+ 1986  cat sonar.log 
+ 1987  clear
+ 1988  cd 
+ 1989  cd /var/lib/psql
+ 1990  cd /var/lib/
+ 1991  ls
+ 1992  cd po
+ 1993  cd postgresql/
+ 1994  ;s
+ 1995  ls
+ 1996  cd 16
+ 1997  ls
+ 1998  cd main/
+ 1999  sudo cd main/
+ 2000  cd //
+ 2001  cd ..
+ 2002  ls
+ 2003  cd
+ 2004  cd /var/lib/postgresql/
+ 2005  ls
+ 2006  cd 14
+ 2007  ls
+ 2008  cd ..
+ 2009  cd lib/
+ 2010  sudo rm -rf postgresql/
+ 2011  ls
+ 2012  cd 
+ 2013  clear
+ 2014  apt install postgresql
+ 2015  sudo apt install postgresql
+ 2016  sudo systemctl start postgresql
+ 2017  sudo systemctl enable postgresql
+ 2018  sudo systemctl status postgresql
+ 2019  sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+ 2020  sudo wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+ 2021  sudo apt install postgresql
+ 2022  sudo systemctl stop postgresql
+ 2023  sudo systemctl start postgresql
+ 2024  sudo systemctl enable postgresql
+ 2025  sudo systemctl status postgresql
+ 2026  sudo systemctl enable postgresql.service
+ 2027  sudo systemctl status postgresql.service
+ 2028  sudo systemctl restart postgresql
+ 2029  cd /var/log/
+ 2030  ls
+ 2031  cd postgresql/
+ 2032  ls
+ 2033  cat postgresql-16-main.log 
+ 2034  cd
+ 2035  dpkg -l | grep postgres
+ 2036  sudo apt-get --purge remove postgresql
+ 2037  dpkg -l | grep postgres
+ 2038* dpkg -l | grep postgresql-14 postgresql-16 postgresql-client-16  postgresql-client-common postgresql-common postgresql-contrib postgresql-
+ 2039  sudo apt-get --purge remove postgresql-14
+ 2040  dpkg -l | grep postgres
+ 2041  sudo apt-get --purge remove postgresql-16 postgresql-client-14  postgresql-client-16  postgresql-client-common  postgresql-common postgresql-contrib 
+ 2042  dpkg -l | grep postgres
+ 2043  clear
+ 2044  sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+ 2045  sudo wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+ 2046  sudo apt install postgresql
+ 2047  dpkg -l | grep postgres
+ 2048  clear
+ 2049  cd /var/lib/
+ 2050  ls
+ 2051  cd postgresql/
+ 2052  ;s
+ 2053  l
+ 2054  cd 16/
+ 2055  ls
+ 2056  cd
+ 2057  sudo systemctl start postgresql
+ 2058  sudo systemctl enable postgresql
+ 2059  sudo systemctl status postgresql
+ 2060  cd /lib
+ 2061  cd systemd/
+ 2062  l
+ 2063  ls
+ 2064  cd system
+ 2065  ;s
+ 2066  ls
+ 2067  cat postgresql.service 
+ 2068  start postgresql.service 
+ 2069  service start postgresql.service 
+ 2070  systemctl start postgresql.service 
+ 2071  sudo systemctl start postgresql.service 
+ 2072  sudo systemctl enable postgresql.service 
+ 2073  sudo systemctl status postgresql.service 
+ 2074  journalctl postgresql.service
+ 2075  journalctl -u  postgresql.service
+ 2076  journalctl -u  postgresql.service | tail -n 10 
+ 2077  cd /usr
+ 2078  cd lib
+ 2079  ls
+ 2080  cd systemd/
+ 2081  cd system
+ 2082  ls
+ 2083  ls | grep pos
+ 2084  /etc/init.d/postgresql start 
+ 2085  sudo systemctl status postgresql.service 
+ 2086  journalctl -u  postgresql.service | tail -n 10 
+ 2087  sudo systemctl status postgresql.service 
+ 2088  cd
+ 2089  psql
+ 2090  netstat -tnlp | grep 5432
+ 2091  psql -H localhost -p 5432
+ 2092  sudo psql -H localhost -p 5432
+ 2093  sudo -u postgres psql
+ 2094  \q
+ 2095  sudo -u postgres psql
+ 2096  clear
+ 2097  cd /opt/
+ 2098  ls
+ 2099  cd sonarqube-10.6.0.92116/
+ 2100  ls
+ 2101  cd bin/
+ 2102  cd linux-x86-64/
+ 2103  sudo nano sonar.sh 
+ 2104  cd ..
+ 2105  cd conf/
+ 2106  sudo nano sonar.properties 
+ 2107  cd ..
+ 2108  cd bin/linux-x86-64/
+ 2109  sudo ./sonar.sh start
+ 2110  sudo ./sonar.sh status
+ 2111  cd ../..
+ 2112  cd logs/
+ 2113  ls
+ 2114  cat sonar.log 
+ 2115  cd ..
+ 2116  cd conf/
+ 2117  cat sonar.properties | grep Elasticsearch
+ 2118  cd
+ 2119  cd /var/lib/
+ 2120  ls
+ 2121  cd
+ 2122  cd /etc/
+ 2123  ls
+ 2124  cd postgresql
+ 2125  ls
+ 2126  cd 16/
+ 2127  ls
+ 2128  cd main/
+ 2129  ls
+ 2130  cat pg_hba.conf 
+ 2131  sudo cat pg_hba.conf 
+ 2132  sudo nano pg_hba.conf 
+ 2133  cd
+ 2134  sudo systemctl restart postgresql
+ 2135  cd /opt/sonarqube-10.6.0.92116/
+ 2136  ls
+ 2137  cd bin/
+ 2138* cd linux-x86-64
+ 2139  sudo ./sonar.sh start
+ 2140  sudo ./sonar.sh status
+ 2141  cd /etc/
+ 2142  ls
+ 2143  cd init.d/
+ 2144  ls
+ 2145  cd ..
+ 2146  cd 
+ 2147  cd
+ 2148  clear
+ 2149  cd /opt/sonarqube-10.6.0.92116/
+ 2150  ls
+ 2151  cd conf/
+ 2152  sudo nano sonar.properties 
+ 2153  cd ..
+ 2154  cd bin/linux-x86-64/
+ 2155  ls
+ 2156  cat | grep RUNASUSER
+ 2157  cat sonar.sh | grep RUNASUSER
+ 2158  sudo ./sonar.sh force-stop
+ 2159  sudo ./sonar.sh start
+ 2160  sudo ./sonar.sh status
+ 2161  cd ..
+ 2162  cd logs/
+ 2163  ls
+ 2164  cat sonar.log 
+ 2165  ls
+ 2166  cd ..
+ 2167  slc
+ 2168  ls
+ 2169  cd conf/
+ 2170  ls
+ 2171  sudo vi sonar.properties 
+ 2172  sudo ./sonar.sh status
+ 2173  cd ..
+ 2174  las
+ 2175  ls
+ 2176  cd bin/
+ 2177  ls
+ 2178  cd linux-x86-64/
+ 2179  ls
+ 2180  sudo ./sonar.sh status
+ 2181  sudo ./sonar.sh stop
+ 2182  sudo ./sonar.sh status
+ 2183  sudo ./sonar.sh restart
+ 2184  sudo ./sonar.sh status
+ 2185  cd ..
+ 2186  rm -rf sonarqube-10.6.0.92116
+ 2187  sudo rm -rf sonarqube-10.6.0.92116
+ 2188  sudo rm -rf sonarqube-10.6.0.92116\ \(1\).zip 
+ 2189  ls
+ 2190  cd 
+ 2191  sudo find / - name postgres
+ 2192  sudo find / - name postgresql
+ 2193  ls
+ 2194  which postgres
+ 2195  sudo systemctl status postgresql.service 
+ 2196  sudo vi /lib/systemd/system/postgresql.service
+ 2197  history
+ 2198  dpkg -l | grep postgr
+ 2199  sudo apt-get --purge remove postgresql postgresql-16 postgresql-client-16 postgresql-client-common postgresql-common
+ 2200  clear
+ 2201  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+ 2202  wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add -
+ 2203  sudo apt install postgresql postgresql-contrib -y
+ 2204  sudo systemctl enable postgresql
+ 2205  sudo systemctl start postgresql
+ 2206  sudo passwd postgres
+ 2207  su - postgres
+ 2208  cd Downloads/
+ 2209  ls
+ 2210  sudo unzip sonarqube-10.6.0.92116.zip 
+ 2211  sudo mv sonarqube-10.6.0.92116 /opt/sonarqube
+ 2212  cd 
+ 2213  cd /opt/sonarqube/
+ 2214  ls
+ 2215  cd
+ 2216  sudo groupadd sonar
+ 2217  sudo useradd -d /opt/sonarqube -g sonar sonar
+ 2218  sudo chown sonar:sonar /opt/sonarqube -R
+ 2219  sudo nano /opt/sonarqube/conf/sonar.properties
+ 2220  sudo nano /opt/sonarqube/bin/linux-x86-64/sonar.sh
+ 2221  sudo vi /opt/sonarqube/bin/linux-x86-64/sonar.sh
+ 2222  sudo nano /etc/systemd/system/sonar.service
+ 2223  sudo systemctl enable sonar
+ 2224  sudo systemctl start sonar
+ 2225  sudo systemctl status sonar
+ 2226  cat /opt/sonarqube/conf/sonar.properties 
+ 
+
+
+
