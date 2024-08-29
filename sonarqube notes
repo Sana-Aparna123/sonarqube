@@ -1,0 +1,20 @@
+important website:https://www.devopsschool.com/blog/
+
+how to do analysis using maven?
+---------------------------------
+1.Settings.xml
+2.pom.xml
+3.mvn sonar:sonar--->maven goal
+
+mvn clean verify sonar:sonar -Dsonar.token=squ_9faecb3b00e95aa25eb8429eb099b08e8f267ba2(sonarqube token) 
+
+how to do analysis using gradle?
+----------------------------------
+gradle sonar -Dsonar.token=squ_9faecb3b00e95aa25eb8429eb099b08e8f267ba2
+
+
+how to do analysis using jenkins?
+------------------------------------
+
+https://www.devopsschool.com/blog/how-to-integrate-sonarqube-with-jenkins-as-part-of-ci-cd/
+
